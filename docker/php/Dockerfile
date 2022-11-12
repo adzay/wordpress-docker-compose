@@ -1,4 +1,4 @@
-FROM wordpress:php7.3-apache
+FROM wordpress:latest
 
 RUN pecl install xdebug \
     && docker-php-ext-enable xdebug \
